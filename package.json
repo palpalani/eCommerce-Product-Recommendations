@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce-product-recommendations",
+  "version": "1.0.1",
+  "description": "Analyze order history of customers and recommend products for new customers which enables higher sales volume.",
+  "main": "index.js",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "precommit": "yarn lint",
+    "start": "cross-env NODE_ENV=production pm2 start ./index.js",
+    "dev": "nodemon ./index.js",
+    "lint": "eslint ./ --ignore-path .gitignore --ignore-pattern internals/scripts",
+    "lint:fix": "yarn lint --fix",
+    "lint:watch": "yarn lint --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "palPalani <palani.p@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cron": "^1.3.0",
+    "express": "^4.15.4",
+    "mongoose": "^4.12.1",
+    "nn": "0.0.6",
+    "pm2": "^4.2.0",
+    "stats-analysis": "^2.0.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^2.0.1"
+  }
+}
