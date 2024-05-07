@@ -1,4 +1,4 @@
-/* Targetbay recommender engine */
+/* Recommender engine */
 
 /* Dependencies */
 const express = require('express');
