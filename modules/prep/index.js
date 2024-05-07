@@ -49,7 +49,7 @@ const Prep = function (callback) {
                             Map[store]['recommender'].exec();
                         }
                     }
-                    console.log("Training fully complete...");
+                    console.log("Training completed");
                     callback(Map);
                 }
             })
