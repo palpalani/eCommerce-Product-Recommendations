@@ -20,7 +20,7 @@
     "body-parser": "^1.20.3",
     "cron": "^3.1.7",
     "express": "^4.19.2",
-    "mongoose": "^8.6.0",
+    "mongoose": "^8.7.1",
     "nn": "0.0.7",
     "pm2": "^5.4.2",
     "stats-analysis": "^2.0.0",
