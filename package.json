@@ -17,19 +17,19 @@
   "author": "palPalani <palani.p@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "cron": "^3.1.7",
     "express": "^4.21.1",
-    "mongoose": "^8.6.0",
+    "mongoose": "^8.7.1",
     "nn": "0.0.7",
     "pm2": "^5.4.2",
     "stats-analysis": "^2.0.0",
     "util": "^0.12.5"
   },
   "devDependencies": {
-    "eslint": "^9.9.1",
+    "eslint": "^9.12.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.31.0",
     "nodemon": "^3.1.4"
   }
 }
