@@ -18,9 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.3",
-    "cron": "^3.2.1",
+    "cron": "^3.3.1",
     "express": "^4.21.2",
-    "mongoose": "^8.9.0",
+    "mongoose": "^8.9.0"",
     "nn": "0.0.7",
     "pm2": "^5.4.3",
     "stats-analysis": "^2.0.0",
